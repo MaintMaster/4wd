@@ -58,12 +58,6 @@
 		</div>
 
 
-		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
-			<div class="logo">
-				<img src="./assets/country-flags/deu.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
-			</div>
-			<span id="countdown2"></span>
-		</div>
 
         <!-- mobile stuff -->
         <a href="javascript:void(0)" class="logo w3-left w3-hide-large" style="font-size:3em;" onclick="openSeriesMobileNav()">
@@ -75,7 +69,7 @@
 
         <h3 class="w3-hide-large navTitle bold" style="display:block;">
             driver 4wd - Total
-            <br><span id="countdown"></span>
+            
         </h3>
 
 	</div>
@@ -123,39 +117,6 @@
 			</a>
 	</div>
 </div>
-<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("2023-05-08T00:00:00Z").getTime();
-
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-
-	// Get today's date and time
-	var now = new Date().getTime();
-
-	// Find the distance between now and the count down date
-	var distance = countDownDate - now;
-
-	// Time calculations for days, hours, minutes and seconds
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	// Output the result in an element with id="demo"
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-
-	// If the count down is over, write some text
-	if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("countdown").innerHTML = "Event Ended";
-		document.getElementById("countdown2").innerHTML = "Event Ended";
-	}
-	}, 1000);
-</script>
 
 <div id="container">
     <div id="flexContainer">
@@ -295,6 +256,27 @@
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
+                        <td class="text-left bold">Andreas Dahlin</td>
+                            <td>A</td>
+                                <td>
+                                    <img src="./assets/teams/GK Door team Sweden.png" style="max-width:2em; max-height:2em;" alt="GK Door team Sweden" title="GK Door team Sweden"/>
+                                </td>
+                                <td>
+                                    <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
+                                </td>
+                        <td>03:31.543</td>
+                        <td>+00:00:07.017</td>
+                        <td>33:11.425</td>
+                        <td>+00:00:40.505</td>
+                            <td></td>
+                        <td>32</td>
+                        <td class="bold">32</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
                         <td class="text-left bold">Tony Bergqvist</td>
                             <td>A</td>
                                 <td>
@@ -308,11 +290,11 @@
                         <td>33:13.496</td>
                         <td>+00:00:42.576</td>
                             <td>1</td>
-                        <td>32</td>
-                        <td class="bold">33</td>
+                        <td>30</td>
+                        <td class="bold">31</td>
                     </tr>
                     <tr>
-                        <td>7</td>
+                        <td>8</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -329,11 +311,11 @@
                         <td>33:13.960</td>
                         <td>+00:00:43.040</td>
                             <td></td>
-                        <td>30</td>
-                        <td class="bold">30</td>
+                        <td>28</td>
+                        <td class="bold">28</td>
                     </tr>
                     <tr>
-                        <td>8</td>
+                        <td>9</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -350,11 +332,11 @@
                         <td>33:20.729</td>
                         <td>+00:00:49.809</td>
                             <td></td>
-                        <td>28</td>
-                        <td class="bold">28</td>
+                        <td>26</td>
+                        <td class="bold">26</td>
                     </tr>
                     <tr>
-                        <td>9</td>
+                        <td>10</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -375,7 +357,7 @@
                         <td class="bold">53</td>
                     </tr>
                     <tr>
-                        <td>10</td>
+                        <td>11</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -392,11 +374,11 @@
                         <td>33:30.280</td>
                         <td>+00:00:59.360</td>
                             <td></td>
-                        <td>26</td>
-                        <td class="bold">26</td>
+                        <td>24</td>
+                        <td class="bold">24</td>
                     </tr>
                     <tr>
-                        <td>11</td>
+                        <td>12</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -417,7 +399,7 @@
                         <td class="bold">49</td>
                     </tr>
                     <tr>
-                        <td>12</td>
+                        <td>13</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -434,11 +416,11 @@
                         <td>33:37.135</td>
                         <td>+00:01:06.215</td>
                             <td></td>
-                        <td>24</td>
-                        <td class="bold">24</td>
+                        <td>22</td>
+                        <td class="bold">22</td>
                     </tr>
                     <tr>
-                        <td>13</td>
+                        <td>14</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -459,7 +441,7 @@
                         <td class="bold">54</td>
                     </tr>
                     <tr>
-                        <td>14</td>
+                        <td>15</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -480,7 +462,7 @@
                         <td class="bold">45</td>
                     </tr>
                     <tr>
-                        <td>15</td>
+                        <td>16</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -497,11 +479,11 @@
                         <td>33:37.974</td>
                         <td>+00:01:07.054</td>
                             <td></td>
-                        <td>22</td>
-                        <td class="bold">22</td>
+                        <td>20</td>
+                        <td class="bold">20</td>
                     </tr>
                     <tr>
-                        <td>16</td>
+                        <td>17</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -522,7 +504,7 @@
                         <td class="bold">49</td>
                     </tr>
                     <tr>
-                        <td>17</td>
+                        <td>18</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -539,11 +521,32 @@
                         <td>33:44.519</td>
                         <td>+00:01:13.599</td>
                             <td></td>
-                        <td>20</td>
-                        <td class="bold">20</td>
+                        <td>18</td>
+                        <td class="bold">18</td>
                     </tr>
                     <tr>
-                        <td>18</td>
+                        <td>19</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
+                        <td class="text-left bold">Mattias Stigh</td>
+                            <td>A</td>
+                                <td>
+                                    <img src="./assets/teams/Rookie Racing.png" style="max-width:2em; max-height:2em;" alt="Rookie Racing" title="Rookie Racing"/>
+                                </td>
+                                <td>
+                                    <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
+                                </td>
+                        <td>03:31.559</td>
+                        <td>+00:00:07.033</td>
+                        <td>33:46.151</td>
+                        <td>+00:01:15.231</td>
+                            <td></td>
+                        <td>17</td>
+                        <td class="bold">17</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -560,11 +563,11 @@
                         <td>33:50.224</td>
                         <td>+00:01:19.304</td>
                             <td></td>
-                        <td>18</td>
-                        <td class="bold">18</td>
+                        <td>16</td>
+                        <td class="bold">16</td>
                     </tr>
                     <tr>
-                        <td>19</td>
+                        <td>21</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -581,11 +584,11 @@
                         <td>33:53.617</td>
                         <td>+00:01:22.697</td>
                             <td></td>
-                        <td>17</td>
-                        <td class="bold">17</td>
+                        <td>15</td>
+                        <td class="bold">15</td>
                     </tr>
                     <tr>
-                        <td>20</td>
+                        <td>22</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -606,7 +609,7 @@
                         <td class="bold">40</td>
                     </tr>
                     <tr>
-                        <td>21</td>
+                        <td>23</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -627,7 +630,7 @@
                         <td class="bold">36</td>
                     </tr>
                     <tr>
-                        <td>22</td>
+                        <td>24</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -648,7 +651,7 @@
                         <td class="bold">44</td>
                     </tr>
                     <tr>
-                        <td>23</td>
+                        <td>25</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -669,7 +672,7 @@
                         <td class="bold">39</td>
                     </tr>
                     <tr>
-                        <td>24</td>
+                        <td>26</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -686,11 +689,11 @@
                         <td>34:05.415</td>
                         <td>+00:01:34.495</td>
                             <td></td>
-                        <td>16</td>
-                        <td class="bold">16</td>
+                        <td>14</td>
+                        <td class="bold">14</td>
                     </tr>
                     <tr>
-                        <td>25</td>
+                        <td>27</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -711,7 +714,7 @@
                         <td class="bold">35</td>
                     </tr>
                     <tr>
-                        <td>26</td>
+                        <td>28</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -731,11 +734,11 @@
                         </td>
                         <td>+00:01:38.003</td>
                             <td></td>
-                        <td>15</td>
-                        <td class="bold">15</td>
+                        <td>13</td>
+                        <td class="bold">13</td>
                     </tr>
                     <tr>
-                        <td>27</td>
+                        <td>29</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -752,11 +755,11 @@
                         <td>34:14.135</td>
                         <td>+00:01:43.215</td>
                             <td></td>
-                        <td>14</td>
-                        <td class="bold">14</td>
+                        <td>12</td>
+                        <td class="bold">12</td>
                     </tr>
                     <tr>
-                        <td>28</td>
+                        <td>30</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -773,11 +776,11 @@
                         <td>34:16.858</td>
                         <td>+00:01:45.938</td>
                             <td></td>
-                        <td>13</td>
-                        <td class="bold">13</td>
+                        <td>11</td>
+                        <td class="bold">11</td>
                     </tr>
                     <tr>
-                        <td>29</td>
+                        <td>31</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -798,7 +801,7 @@
                         <td class="bold">32</td>
                     </tr>
                     <tr>
-                        <td>30</td>
+                        <td>32</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -815,11 +818,11 @@
                         <td>34:22.746</td>
                         <td>+00:01:51.826</td>
                             <td></td>
-                        <td>12</td>
-                        <td class="bold">12</td>
+                        <td>10</td>
+                        <td class="bold">10</td>
                     </tr>
                     <tr>
-                        <td>31</td>
+                        <td>33</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -840,7 +843,7 @@
                         <td class="bold">30</td>
                     </tr>
                     <tr>
-                        <td>32</td>
+                        <td>34</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -857,11 +860,11 @@
                         <td>34:28.321</td>
                         <td>+00:01:57.401</td>
                             <td></td>
-                        <td>11</td>
-                        <td class="bold">11</td>
+                        <td>9</td>
+                        <td class="bold">9</td>
                     </tr>
                     <tr>
-                        <td>33</td>
+                        <td>35</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -882,7 +885,7 @@
                         <td class="bold">28</td>
                     </tr>
                     <tr>
-                        <td>34</td>
+                        <td>36</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -903,7 +906,7 @@
                         <td class="bold">26</td>
                     </tr>
                     <tr>
-                        <td>35</td>
+                        <td>37</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -924,7 +927,7 @@
                         <td class="bold">34</td>
                     </tr>
                     <tr>
-                        <td>36</td>
+                        <td>38</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -945,7 +948,7 @@
                         <td class="bold">24</td>
                     </tr>
                     <tr>
-                        <td>37</td>
+                        <td>39</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -966,7 +969,7 @@
                         <td class="bold">30</td>
                     </tr>
                     <tr>
-                        <td>38</td>
+                        <td>40</td>
                         <td>
                             <img src="./assets/country-flags/fin.png" style="max-width:1.5em; max-height:1.5em;" alt="fin" title="fin"/>
                         </td>
@@ -987,7 +990,7 @@
                         <td class="bold">22</td>
                     </tr>
                     <tr>
-                        <td>39</td>
+                        <td>41</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1008,7 +1011,7 @@
                         <td class="bold">20</td>
                     </tr>
                     <tr>
-                        <td>40</td>
+                        <td>42</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1029,7 +1032,7 @@
                         <td class="bold">18</td>
                     </tr>
                     <tr>
-                        <td>41</td>
+                        <td>43</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1050,7 +1053,7 @@
                         <td class="bold">28</td>
                     </tr>
                     <tr>
-                        <td>42</td>
+                        <td>44</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1071,7 +1074,7 @@
                         <td class="bold">26</td>
                     </tr>
                     <tr>
-                        <td>43</td>
+                        <td>45</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1092,7 +1095,7 @@
                         <td class="bold">17</td>
                     </tr>
                     <tr>
-                        <td>44</td>
+                        <td>46</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1113,7 +1116,7 @@
                         <td class="bold">16</td>
                     </tr>
                     <tr>
-                        <td>45</td>
+                        <td>47</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1134,7 +1137,7 @@
                         <td class="bold">15</td>
                     </tr>
                     <tr>
-                        <td>46</td>
+                        <td>48</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1155,7 +1158,7 @@
                         <td class="bold">24</td>
                     </tr>
                     <tr>
-                        <td>47</td>
+                        <td>49</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1176,7 +1179,7 @@
                         <td class="bold">14</td>
                     </tr>
                     <tr>
-                        <td>48</td>
+                        <td>50</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1197,7 +1200,7 @@
                         <td class="bold">22</td>
                     </tr>
                     <tr>
-                        <td>49</td>
+                        <td>51</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1218,7 +1221,7 @@
                         <td class="bold">13</td>
                     </tr>
                     <tr>
-                        <td>50</td>
+                        <td>52</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1239,7 +1242,7 @@
                         <td class="bold">20</td>
                     </tr>
                     <tr>
-                        <td>51</td>
+                        <td>53</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1260,7 +1263,7 @@
                         <td class="bold">18</td>
                     </tr>
                     <tr>
-                        <td>52</td>
+                        <td>54</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1281,7 +1284,7 @@
                         <td class="bold">12</td>
                     </tr>
                     <tr>
-                        <td>53</td>
+                        <td>55</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1302,7 +1305,7 @@
                         <td class="bold">11</td>
                     </tr>
                     <tr>
-                        <td>54</td>
+                        <td>56</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1323,7 +1326,7 @@
                         <td class="bold">17</td>
                     </tr>
                     <tr>
-                        <td>55</td>
+                        <td>57</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1344,7 +1347,7 @@
                         <td class="bold">16</td>
                     </tr>
                     <tr>
-                        <td>56</td>
+                        <td>58</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1365,7 +1368,7 @@
                         <td class="bold">10</td>
                     </tr>
                     <tr>
-                        <td>57</td>
+                        <td>59</td>
                         <td>
                             <img src="./assets/country-flags/aus.png" style="max-width:1.5em; max-height:1.5em;" alt="aus" title="aus"/>
                         </td>
@@ -1386,7 +1389,7 @@
                         <td class="bold">15</td>
                     </tr>
                     <tr>
-                        <td>58</td>
+                        <td>60</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1407,7 +1410,7 @@
                         <td class="bold">14</td>
                     </tr>
                     <tr>
-                        <td>59</td>
+                        <td>61</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1424,11 +1427,11 @@
                         <td>40:37.685</td>
                         <td>+00:08:06.765</td>
                             <td></td>
-                        <td>10</td>
-                        <td class="bold">10</td>
+                        <td>8</td>
+                        <td class="bold">8</td>
                     </tr>
                     <tr>
-                        <td>60</td>
+                        <td>62</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1449,7 +1452,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>61</td>
+                        <td>63</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1470,7 +1473,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>62</td>
+                        <td>64</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1491,7 +1494,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>63</td>
+                        <td>65</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1512,7 +1515,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>64</td>
+                        <td>66</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1533,7 +1536,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>65</td>
+                        <td>67</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1554,7 +1557,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>66</td>
+                        <td>68</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1575,28 +1578,7 @@
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>67</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Mattias Stigh</td>
-                            <td>A</td>
-                                <td>
-                                    <img src="./assets/teams/Rookie Racing.png" style="max-width:2em; max-height:2em;" alt="Rookie Racing" title="Rookie Racing"/>
-                                </td>
-                                <td>
-                                    <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold"></td>
-                    </tr>
-                    <tr>
-                        <td>68</td>
+                        <td>69</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1614,10 +1596,10 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>69</td>
+                        <td>70</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1635,10 +1617,10 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
-                        <td>70</td>
+                        <td>71</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -1656,28 +1638,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
-                    </tr>
-                    <tr>
-                        <td>71</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Andreas Dahlin</td>
-                            <td>A</td>
-                                <td>
-                                    <img src="./assets/teams/GK Door team Sweden.png" style="max-width:2em; max-height:2em;" alt="GK Door team Sweden" title="GK Door team Sweden"/>
-                                </td>
-                                <td>
-                                    <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>72</td>
@@ -1698,7 +1659,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>73</td>
@@ -1719,7 +1680,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>74</td>
@@ -1740,7 +1701,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>75</td>
@@ -1761,7 +1722,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>76</td>
@@ -1777,12 +1738,12 @@
                                     <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
                                 </td>
                         <td>15:00:00.000</td>
-                        <td>N/A</td>
+                        <td>+14:56:35.474</td>
                         <td>23:59:59.000</td>
-                        <td>N/A</td>
+                        <td>+23:27:28.080</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNF</td>
                     </tr>
                     <tr>
                         <td>77</td>
@@ -1803,7 +1764,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>78</td>
@@ -1824,7 +1785,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>79</td>
@@ -1845,7 +1806,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>80</td>
@@ -1866,7 +1827,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>81</td>
@@ -1887,7 +1848,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>82</td>
@@ -1908,7 +1869,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>83</td>
@@ -1929,7 +1890,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>84</td>
@@ -1950,7 +1911,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>85</td>
@@ -1971,7 +1932,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>86</td>
@@ -1992,7 +1953,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>87</td>
@@ -2013,7 +1974,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>88</td>
@@ -2029,12 +1990,12 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>15:00:00.000</td>
-                        <td>N/A</td>
+                        <td>+14:56:35.474</td>
                         <td>23:59:59.000</td>
-                        <td>N/A</td>
+                        <td>+23:27:28.080</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNF</td>
                     </tr>
                     <tr>
                         <td>89</td>
@@ -2055,7 +2016,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>90</td>
@@ -2076,7 +2037,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>91</td>
@@ -2097,7 +2058,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>92</td>
@@ -2118,7 +2079,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>93</td>
@@ -2139,7 +2100,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>94</td>
@@ -2160,7 +2121,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>95</td>
@@ -2181,7 +2142,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>96</td>
@@ -2202,7 +2163,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>97</td>
@@ -2223,7 +2184,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>98</td>
@@ -2244,7 +2205,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>99</td>
@@ -2265,13 +2226,13 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                 </tbody>
 
             </table>
             <div style="margin:0 auto; text-align:center;">
-                <p>Senast uppdaterad vid: 2023-05-07T23:09:58Z</p>
+                <p>Senast uppdaterad vid: 2023-05-08T00:46:45Z</p>
             </div>
         </div>
     </div>
