@@ -58,6 +58,12 @@
 		</div>
 
 
+		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
+			<div class="logo">
+				<img src="./assets/country-flags/swe.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
+			</div>
+			<span id="countdown2"></span>
+		</div>
 
         <!-- mobile stuff -->
         <a href="javascript:void(0)" class="logo w3-left w3-hide-large" style="font-size:3em;" onclick="openSeriesMobileNav()">
@@ -69,7 +75,7 @@
 
         <h3 class="w3-hide-large navTitle bold" style="display:block;">
             team 4wd - Total
-            
+            <br><span id="countdown"></span>
         </h3>
 
 	</div>
@@ -118,8 +124,44 @@
 			<a href="./overall-5-driver-results.html">
 				<img src="./assets/country-flags/arg.png" />
 			</a>
+			<a href="./overall-6-driver-results.html">
+				<img src="./assets/country-flags/swe.png" />
+			</a>
 	</div>
 </div>
+<script>
+	// Set the date we're counting down to
+	var countDownDate = new Date("2023-06-05T00:00:00Z").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+	// Get today's date and time
+	var now = new Date().getTime();
+
+	// Find the distance between now and the count down date
+	var distance = countDownDate - now;
+
+	// Time calculations for days, hours, minutes and seconds
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	// Output the result in an element with id="demo"
+	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+	+ minutes + "m " + seconds + "s ";
+	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
+	+ minutes + "m " + seconds + "s ";
+
+	// If the count down is over, write some text
+	if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("countdown").innerHTML = "Event Ended";
+		document.getElementById("countdown2").innerHTML = "Event Ended";
+	}
+	}, 1000);
+</script>
 
     <div id="container">
         <div id="flexContainer">
@@ -144,6 +186,7 @@
                             <th><img src="./assets/country-flags/scot.png"  alt="scot"/></th>
                             <th><img src="./assets/country-flags/deu.png"  alt="deu"/></th>
                             <th><img src="./assets/country-flags/arg.png"  alt="arg"/></th>
+                            <th><img src="./assets/country-flags/swe.png"  alt="swe"/></th>
                             <th>Poäng</th>
                         </tr>
                     </thead>
@@ -183,6 +226,10 @@
                                 204
                             </td>
                             
+                            <td>
+                                0
+                            </td>
+                            
                             <td class="bold">1250</td>
                         </tr>
                         
@@ -220,7 +267,11 @@
                                 207
                             </td>
                             
-                            <td class="bold">1094</td>
+                            <td>
+                                48
+                            </td>
+                            
+                            <td class="bold">1142</td>
                         </tr>
                         
                         <tr>
@@ -257,51 +308,17 @@
                                 174
                             </td>
                             
-                            <td class="bold">933</td>
+                            <td>
+                                55
+                            </td>
+                            
+                            <td class="bold">988</td>
                         </tr>
                         
                         <tr>
                             <td>4</td>
                             <td>
                                 <span class="positive"><i class="arrow up"></i>&nbsp;1</span>
-                            </td>
-                                    <td>
-                                        <img src="./assets/teams/Strängnäs Bilforum Racing Team.png" style="max-width:2em; max-height:2em;"  alt="Strängnäs Bilforum Racing Team" title="Strängnäs Bilforum Racing Team"/>
-                                    </td>
-                                <td class="text-left bold">Strängnäs Bilforum Racing Team</td>
-                            
-                            <td>
-                                144
-                            </td>
-                            
-                            <td>
-                                136
-                            </td>
-                            
-                            <td>
-                                85
-                            </td>
-                            
-                            <td>
-                                178
-                            </td>
-                            
-                            <td>
-                                175
-                            </td>
-                            
-                            <td>
-                                156
-                            </td>
-                            
-                            <td class="bold">874</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>5</td>
-                            <td>
-                                <span class="negative"><i
-                                        class="arrow down"></i>&nbsp;-1</span>
                             </td>
                                     <td>
                                         <img src="./assets/teams/Bildelsshopen Mellerud.png" style="max-width:2em; max-height:2em;"  alt="Bildelsshopen Mellerud" title="Bildelsshopen Mellerud"/>
@@ -332,7 +349,53 @@
                                 118
                             </td>
                             
-                            <td class="bold">865</td>
+                            <td>
+                                99
+                            </td>
+                            
+                            <td class="bold">964</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>5</td>
+                            <td>
+                                <span class="negative"><i
+                                        class="arrow down"></i>&nbsp;-1</span>
+                            </td>
+                                    <td>
+                                        <img src="./assets/teams/Strängnäs Bilforum Racing Team.png" style="max-width:2em; max-height:2em;"  alt="Strängnäs Bilforum Racing Team" title="Strängnäs Bilforum Racing Team"/>
+                                    </td>
+                                <td class="text-left bold">Strängnäs Bilforum Racing Team</td>
+                            
+                            <td>
+                                144
+                            </td>
+                            
+                            <td>
+                                136
+                            </td>
+                            
+                            <td>
+                                85
+                            </td>
+                            
+                            <td>
+                                178
+                            </td>
+                            
+                            <td>
+                                175
+                            </td>
+                            
+                            <td>
+                                156
+                            </td>
+                            
+                            <td>
+                                0
+                            </td>
+                            
+                            <td class="bold">874</td>
                         </tr>
                         
                         <tr>
@@ -369,50 +432,17 @@
                                 100
                             </td>
                             
+                            <td>
+                                0
+                            </td>
+                            
                             <td class="bold">805</td>
                         </tr>
                         
                         <tr>
                             <td>7</td>
                             <td>
-                                <span class="neutral">=</span>
-                            </td>
-                                    <td>
-                                        <img src="./assets/teams/Team SKÅAB.png" style="max-width:2em; max-height:2em;"  alt="Team SKÅAB" title="Team SKÅAB"/>
-                                    </td>
-                                <td class="text-left bold">Team SKÅAB</td>
-                            
-                            <td>
-                                145
-                            </td>
-                            
-                            <td>
-                                140
-                            </td>
-                            
-                            <td>
-                                152
-                            </td>
-                            
-                            <td>
-                                129
-                            </td>
-                            
-                            <td>
-                                96
-                            </td>
-                            
-                            <td>
-                                100
-                            </td>
-                            
-                            <td class="bold">762</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>8</td>
-                            <td>
-                                <span class="neutral">=</span>
+                                <span class="positive"><i class="arrow up"></i>&nbsp;1</span>
                             </td>
                                     <td>
                                         <img src="./assets/teams/GN Motorsport Sweden.png" style="max-width:2em; max-height:2em;"  alt="GN Motorsport Sweden" title="GN Motorsport Sweden"/>
@@ -443,7 +473,53 @@
                                 82
                             </td>
                             
-                            <td class="bold">712</td>
+                            <td>
+                                55
+                            </td>
+                            
+                            <td class="bold">767</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>8</td>
+                            <td>
+                                <span class="negative"><i
+                                        class="arrow down"></i>&nbsp;-1</span>
+                            </td>
+                                    <td>
+                                        <img src="./assets/teams/Team SKÅAB.png" style="max-width:2em; max-height:2em;"  alt="Team SKÅAB" title="Team SKÅAB"/>
+                                    </td>
+                                <td class="text-left bold">Team SKÅAB</td>
+                            
+                            <td>
+                                145
+                            </td>
+                            
+                            <td>
+                                140
+                            </td>
+                            
+                            <td>
+                                152
+                            </td>
+                            
+                            <td>
+                                129
+                            </td>
+                            
+                            <td>
+                                96
+                            </td>
+                            
+                            <td>
+                                100
+                            </td>
+                            
+                            <td>
+                                0
+                            </td>
+                            
+                            <td class="bold">762</td>
                         </tr>
                         
                         <tr>
@@ -480,7 +556,11 @@
                                 100
                             </td>
                             
-                            <td class="bold">561</td>
+                            <td>
+                                48
+                            </td>
+                            
+                            <td class="bold">609</td>
                         </tr>
                         
                         <tr>
@@ -515,6 +595,10 @@
                             
                             <td>
                                 62
+                            </td>
+                            
+                            <td>
+                                0
                             </td>
                             
                             <td class="bold">403</td>
@@ -554,6 +638,10 @@
                                 0
                             </td>
                             
+                            <td>
+                                0
+                            </td>
+                            
                             <td class="bold">76</td>
                         </tr>
                         
@@ -561,7 +649,7 @@
 
                 </table>
                 <div style="margin:0 auto; text-align:center;">
-                    <p>Senast uppdaterad vid: 2023-05-26T08:37:33Z</p>
+                    <p>Senast uppdaterad vid: 2023-06-02T03:29:47Z</p>
                 </div>
             </div>
         </div>
