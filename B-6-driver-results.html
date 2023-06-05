@@ -58,12 +58,6 @@
 		</div>
 
 
-		<div class="w3-bar-item w3-right w3-hide-small w3-hide-medium">
-			<div class="logo">
-				<img src="./assets/country-flags/swe.png" style="max-height: 0.9em;border-radius: 0.3em;"/>
-			</div>
-			<span id="countdown2"></span>
-		</div>
 
         <!-- mobile stuff -->
         <a href="javascript:void(0)" class="logo w3-left w3-hide-large" style="font-size:3em;" onclick="openSeriesMobileNav()">
@@ -75,7 +69,7 @@
 
         <h3 class="w3-hide-large navTitle bold" style="display:block;">
             driver 4wd - B
-            <br><span id="countdown"></span>
+            
         </h3>
 
 	</div>
@@ -129,39 +123,6 @@
 			</a>
 	</div>
 </div>
-<script>
-	// Set the date we're counting down to
-	var countDownDate = new Date("2023-06-05T00:00:00Z").getTime();
-
-	// Update the count down every 1 second
-	var x = setInterval(function() {
-
-	// Get today's date and time
-	var now = new Date().getTime();
-
-	// Find the distance between now and the count down date
-	var distance = countDownDate - now;
-
-	// Time calculations for days, hours, minutes and seconds
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-	// Output the result in an element with id="demo"
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-	document.getElementById("countdown2").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-
-	// If the count down is over, write some text
-	if (distance < 0) {
-		clearInterval(x);
-		document.getElementById("countdown").innerHTML = "Event Ended";
-		document.getElementById("countdown2").innerHTML = "Event Ended";
-	}
-	}, 1000);
-</script>
 
 <div id="container">
     <div id="flexContainer">
@@ -195,6 +156,26 @@
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
+                        <td class="text-left bold">Linus Jarmyr</td>
+                                <td>
+                                    <img src="./assets/teams/Ljungdahl Racing.png" style="max-width:2em; max-height:2em;" alt="Ljungdahl Racing" title="Ljungdahl Racing"/>
+                                </td>
+                                <td>
+                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
+                                </td>
+                        <td>02:14.411</td>
+                        <td>--</td>
+                        <td>32:36.028</td>
+                        <td>--</td>
+                            <td>5</td>
+                        <td>50</td>
+                        <td class="bold">55</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
+                        </td>
                         <td class="text-left bold">Martin Zirnsack</td>
                                 <td>
                                     <img src="./assets/teams/Strängnäs Bilforum Racing Team.png" style="max-width:2em; max-height:2em;" alt="Strängnäs Bilforum Racing Team" title="Strängnäs Bilforum Racing Team"/>
@@ -203,15 +184,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:17.211</td>
-                        <td>--</td>
+                        <td>+00:00:02.800</td>
                         <td>32:38.702</td>
-                        <td>--</td>
-                            <td>5</td>
-                        <td>50</td>
-                        <td class="bold">55</td>
+                        <td>+00:00:02.674</td>
+                            <td>4</td>
+                        <td>44</td>
+                        <td class="bold">48</td>
                     </tr>
                     <tr>
-                        <td>2</td>
+                        <td>3</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -223,15 +204,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:20.427</td>
-                        <td>+00:00:03.216</td>
+                        <td>+00:00:06.016</td>
                         <td>32:44.146</td>
-                        <td>+00:00:05.444</td>
-                            <td>2</td>
-                        <td>44</td>
-                        <td class="bold">46</td>
+                        <td>+00:00:08.118</td>
+                            <td>1</td>
+                        <td>41</td>
+                        <td class="bold">42</td>
                     </tr>
                     <tr>
-                        <td>3</td>
+                        <td>4</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -243,15 +224,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:23.094</td>
-                        <td>+00:00:05.883</td>
+                        <td>+00:00:08.683</td>
                         <td>33:03.427</td>
-                        <td>+00:00:24.725</td>
+                        <td>+00:00:27.399</td>
                             <td></td>
-                        <td>41</td>
-                        <td class="bold">41</td>
+                        <td>38</td>
+                        <td class="bold">38</td>
                     </tr>
                     <tr>
-                        <td>4</td>
+                        <td>5</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -263,15 +244,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:18.844</td>
-                        <td>+00:00:01.633</td>
+                        <td>+00:00:04.433</td>
                         <td>33:04.513</td>
-                        <td>+00:00:25.811</td>
-                            <td>3</td>
-                        <td>38</td>
-                        <td class="bold">41</td>
+                        <td>+00:00:28.485</td>
+                            <td>2</td>
+                        <td>35</td>
+                        <td class="bold">37</td>
                     </tr>
                     <tr>
-                        <td>5</td>
+                        <td>6</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -283,15 +264,15 @@
                                     <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
                                 </td>
                         <td>02:20.994</td>
-                        <td>+00:00:03.783</td>
+                        <td>+00:00:06.583</td>
                         <td>33:08.177</td>
-                        <td>+00:00:29.475</td>
+                        <td>+00:00:32.149</td>
                             <td></td>
-                        <td>35</td>
-                        <td class="bold">35</td>
+                        <td>32</td>
+                        <td class="bold">32</td>
                     </tr>
                     <tr>
-                        <td>6</td>
+                        <td>7</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -303,15 +284,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:18.127</td>
-                        <td>+00:00:00.916</td>
+                        <td>+00:00:03.716</td>
                         <td>33:23.972</td>
-                        <td>+00:00:45.270</td>
-                            <td>4</td>
-                        <td>32</td>
-                        <td class="bold">36</td>
+                        <td>+00:00:47.944</td>
+                            <td>3</td>
+                        <td>30</td>
+                        <td class="bold">33</td>
                     </tr>
                     <tr>
-                        <td>7</td>
+                        <td>8</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -323,15 +304,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:24.244</td>
-                        <td>+00:00:07.033</td>
+                        <td>+00:00:09.833</td>
                         <td>33:24.082</td>
-                        <td>+00:00:45.380</td>
+                        <td>+00:00:48.054</td>
                             <td></td>
-                        <td>30</td>
-                        <td class="bold">30</td>
+                        <td>28</td>
+                        <td class="bold">28</td>
                     </tr>
                     <tr>
-                        <td>8</td>
+                        <td>9</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -343,15 +324,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:23.560</td>
-                        <td>+00:00:06.349</td>
+                        <td>+00:00:09.149</td>
                         <td>33:40.733</td>
-                        <td>+00:01:02.031</td>
+                        <td>+00:01:04.705</td>
                             <td></td>
-                        <td>28</td>
-                        <td class="bold">28</td>
+                        <td>26</td>
+                        <td class="bold">26</td>
                     </tr>
                     <tr>
-                        <td>9</td>
+                        <td>10</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -363,15 +344,15 @@
                                     <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
                                 </td>
                         <td>02:25.177</td>
-                        <td>+00:00:07.966</td>
+                        <td>+00:00:10.766</td>
                         <td>33:42.786</td>
-                        <td>+00:01:04.084</td>
+                        <td>+00:01:06.758</td>
                             <td></td>
-                        <td>26</td>
-                        <td class="bold">26</td>
+                        <td>24</td>
+                        <td class="bold">24</td>
                     </tr>
                     <tr>
-                        <td>10</td>
+                        <td>11</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -383,15 +364,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:24.244</td>
-                        <td>+00:00:07.033</td>
+                        <td>+00:00:09.833</td>
                         <td>33:43.744</td>
-                        <td>+00:01:05.042</td>
+                        <td>+00:01:07.716</td>
                             <td></td>
-                        <td>24</td>
-                        <td class="bold">24</td>
+                        <td>22</td>
+                        <td class="bold">22</td>
                     </tr>
                     <tr>
-                        <td>11</td>
+                        <td>12</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -403,15 +384,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:20.761</td>
-                        <td>+00:00:03.550</td>
+                        <td>+00:00:06.350</td>
                         <td>33:58.766</td>
-                        <td>+00:01:20.064</td>
-                            <td>1</td>
-                        <td>22</td>
-                        <td class="bold">23</td>
+                        <td>+00:01:22.738</td>
+                            <td></td>
+                        <td>20</td>
+                        <td class="bold">20</td>
                     </tr>
                     <tr>
-                        <td>12</td>
+                        <td>13</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -423,15 +404,15 @@
                                     <img src="./assets/cars/peugot.png" style="max-width:2em; max-height:2em;" alt="peugot" title="peugot"/>
                                 </td>
                         <td>02:27.310</td>
-                        <td>+00:00:10.099</td>
+                        <td>+00:00:12.899</td>
                         <td>34:19.662</td>
-                        <td>+00:01:40.960</td>
+                        <td>+00:01:43.634</td>
                             <td></td>
-                        <td>20</td>
-                        <td class="bold">20</td>
+                        <td>18</td>
+                        <td class="bold">18</td>
                     </tr>
                     <tr>
-                        <td>13</td>
+                        <td>14</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -443,15 +424,15 @@
                                     <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
                                 </td>
                         <td>02:26.860</td>
-                        <td>+00:00:09.649</td>
+                        <td>+00:00:12.449</td>
                         <td>34:22.428</td>
-                        <td>+00:01:43.726</td>
+                        <td>+00:01:46.400</td>
                             <td></td>
-                        <td>18</td>
-                        <td class="bold">18</td>
+                        <td>17</td>
+                        <td class="bold">17</td>
                     </tr>
                     <tr>
-                        <td>14</td>
+                        <td>15</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -463,15 +444,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>02:30.710</td>
-                        <td>+00:00:13.499</td>
+                        <td>+00:00:16.299</td>
                         <td>34:43.953</td>
-                        <td>+00:02:05.251</td>
+                        <td>+00:02:07.925</td>
                             <td></td>
-                        <td>17</td>
-                        <td class="bold">17</td>
+                        <td>16</td>
+                        <td class="bold">16</td>
                     </tr>
                     <tr>
-                        <td>15</td>
+                        <td>16</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -483,15 +464,15 @@
                                     <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
                                 </td>
                         <td>02:31.077</td>
-                        <td>+00:00:13.866</td>
+                        <td>+00:00:16.666</td>
                         <td>35:01.277</td>
-                        <td>+00:02:22.575</td>
+                        <td>+00:02:25.249</td>
                             <td></td>
-                        <td>16</td>
-                        <td class="bold">16</td>
+                        <td>15</td>
+                        <td class="bold">15</td>
                     </tr>
                     <tr>
-                        <td>16</td>
+                        <td>17</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -503,15 +484,15 @@
                                     <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
                                 </td>
                         <td>03:06.892</td>
-                        <td>+00:00:49.681</td>
+                        <td>+00:00:52.481</td>
                         <td>39:20.747</td>
-                        <td>+00:06:42.045</td>
+                        <td>+00:06:44.719</td>
                             <td></td>
-                        <td>15</td>
-                        <td class="bold">15</td>
+                        <td>14</td>
+                        <td class="bold">14</td>
                     </tr>
                     <tr>
-                        <td>17</td>
+                        <td>18</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -523,15 +504,15 @@
                                     <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
                                 </td>
                         <td>15:00.000</td>
-                        <td>+00:12:42.789</td>
+                        <td>+00:12:45.589</td>
                         <td>47:44.265</td>
-                        <td>+00:15:05.563</td>
+                        <td>+00:15:08.237</td>
                             <td></td>
                         <td></td>
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>18</td>
+                        <td>19</td>
                         <td>
                             <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
                         </td>
@@ -543,15 +524,15 @@
                                     <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
                                 </td>
                         <td>15:00.000</td>
-                        <td>+00:12:42.789</td>
+                        <td>+00:12:45.589</td>
                         <td>01:59:00.266</td>
-                        <td>+01:26:21.564</td>
+                        <td>+01:26:24.238</td>
                             <td></td>
                         <td></td>
                         <td class="bold">DNF</td>
                     </tr>
                     <tr>
-                        <td>19</td>
+                        <td>20</td>
                         <td>
                             <img src="./assets/country-flags/fin.png" style="max-width:1.5em; max-height:1.5em;" alt="fin" title="fin"/>
                         </td>
@@ -563,32 +544,12 @@
                                     <img src="./assets/cars/volkswagen.png" style="max-width:2em; max-height:2em;" alt="volkswagen" title="volkswagen"/>
                                 </td>
                         <td>15:00.000</td>
-                        <td>+00:12:42.789</td>
+                        <td>+00:12:45.589</td>
                         <td>02:21:29.401</td>
-                        <td>+01:48:50.699</td>
+                        <td>+01:48:53.373</td>
                             <td></td>
                         <td></td>
                         <td class="bold">DNF</td>
-                    </tr>
-                    <tr>
-                        <td>20</td>
-                        <td>
-                            <img src="./assets/country-flags/swe.png" style="max-width:1.5em; max-height:1.5em;" alt="swe" title="swe"/>
-                        </td>
-                        <td class="text-left bold">Linus Jarmyr</td>
-                                <td>
-                                    <img src="./assets/teams/Ljungdahl Racing.png" style="max-width:2em; max-height:2em;" alt="Ljungdahl Racing" title="Ljungdahl Racing"/>
-                                </td>
-                                <td>
-                                    <img src="./assets/cars/ford.png" style="max-width:2em; max-height:2em;" alt="ford" title="ford"/>
-                                </td>
-                        <td>15:00:00.000</td>
-                        <td>N/A</td>
-                        <td>23:59:59.000</td>
-                        <td>N/A</td>
-                            <td></td>
-                        <td></td>
-                        <td class="bold"></td>
                     </tr>
                     <tr>
                         <td>21</td>
@@ -608,7 +569,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>22</td>
@@ -628,7 +589,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>23</td>
@@ -648,7 +609,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>24</td>
@@ -668,7 +629,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>25</td>
@@ -688,7 +649,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>26</td>
@@ -708,7 +669,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>27</td>
@@ -728,7 +689,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>28</td>
@@ -748,7 +709,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>29</td>
@@ -768,7 +729,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>30</td>
@@ -788,7 +749,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNF</td>
                     </tr>
                     <tr>
                         <td>31</td>
@@ -808,7 +769,7 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                     <tr>
                         <td>32</td>
@@ -828,13 +789,13 @@
                         <td>N/A</td>
                             <td></td>
                         <td></td>
-                        <td class="bold"></td>
+                        <td class="bold">DNS</td>
                     </tr>
                 </tbody>
 
             </table>
             <div style="margin:0 auto; text-align:center;">
-                <p>Senast uppdaterad vid: 2023-06-04T23:13:57Z</p>
+                <p>Senast uppdaterad vid: 2023-06-05T01:15:23Z</p>
             </div>
         </div>
     </div>
